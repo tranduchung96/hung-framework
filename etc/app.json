@@ -1,0 +1,30 @@
+{
+	"app_xda_token": "wqv73nlwngnziroeulj0d1t3kasglny9",
+	"use_xda_token": "2c3e3ae21aab34ee1e569cc78460e8541c80c524",
+	"app_name": "appname",
+	"app_timeout": "60s",
+	"port": "8170",
+	"database": {
+		"url": "mongodb://192.168.1.103:27017/server-crawler",
+		"debug": false
+	},
+	"cache": {
+		"adapter": "redis",
+		"host": "localhost",
+		"port": "6379",
+		"prefix": "cacheprefix"
+	},
+	"jwt": {
+		"secretOrKey": "hungforest",
+		"expiresIn": "24h"
+	},
+	"memcached": {
+		"host": "localhost",
+		"port": "11211"
+	},
+	"session": {
+		"secret": "Lct$JMbK5TdZ#9X4FCB!DsqVKk2fjpyapFdFX&1X8IYHNfHlaXhPPETabiOJH00W",
+		"collection": "customersessionstorages",
+		"ttl": 2592000
+	}
+}
